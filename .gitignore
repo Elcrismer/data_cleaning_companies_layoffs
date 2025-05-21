@@ -1,0 +1,11 @@
+# Ignorar todo lo que no esté explícitamente incluido
+*
+
+# Excepciones: NO ignorar la carpeta .git (necesaria para Git)
+!.git/
+
+# Excepciones: NO ignorar el propio archivo .gitignore
+!.gitignore
+
+# Excepciones: NO ignorar tu archivo SQL principal
+!data_cleaning_companies_layoffs.sql
